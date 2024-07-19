@@ -1,75 +1,32 @@
-# Nuxt 3 Minimal Starter
+# Netflix Home Screen Clone
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project is a clone of the Netflix home screen, built with Nuxt 3, Tailwind CSS, Bun, and Pinia. The project is currently under development.
 
-## Setup
+## Installation
 
-Make sure to install the dependencies:
+To get started with this project, you need to have Bun installed. If you haven't installed Bun yet, you can do so by following the instructions on the [Bun website](https://bun.sh/).
 
-```bash
-# npm
-npm install
+Once Bun is installed, you can proceed with the following steps:
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### Install the necessary packages
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+bun i
 ```
 
-## Production
-
-Build the application for production:
+### Run the project in development mode
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+bun dev
 ```
 
-Locally preview production build:
+## Technologies Used
 
-```bash
-# npm
-npm run preview
+- Nuxt 3: The framework for building Vue.js applications.
+- Tailwind CSS: A utility-first CSS framework for styling.
+- Bun: A fast all-in-one JavaScript runtime.
+- Pinia: A state management library for Vue.js.
 
-# pnpm
-pnpm run preview
+## Project Status
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is currently a work in progress. Contributions and feedback are welcome.
