@@ -11,10 +11,15 @@
   },
   "dependencies": {
     "@nuxt/icon": "latest",
+    "@nuxt/image": "latest",
     "@nuxtjs/tailwindcss": "latest",
     "@pinia/nuxt": "^0.5.1",
     "nuxt": "^3.12.4",
     "pinia": "^2.1.7",
+    "sharp": "^0.33.4",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.67"
   }
 }
