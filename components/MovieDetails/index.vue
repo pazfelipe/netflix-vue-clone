@@ -9,6 +9,9 @@
       <MovieDetailsGenre :genre="movie?.genre?.two" />
       <MovieDetailsGenre :genre="movie?.genre?.three" />
     </div>
+    <div class="text-2xl pt-6">
+      {{ movie.description }}
+    </div>
   </div>
 </template>
 
