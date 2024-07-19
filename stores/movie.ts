@@ -2,7 +2,7 @@ import { defineStore } from "pinia"
 
 export const useMovieStore = defineStore("movie", {
   state: () => ({
-    _movie: "",
+    _movie: {},
     _showFullVideo: false
   }),
   getters: {
